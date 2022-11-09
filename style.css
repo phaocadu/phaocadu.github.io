@@ -1,0 +1,29 @@
+body {
+	background: #395D11;
+	margin: 32px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+img {
+	width:  100%;
+}
+
+button {
+	border: none;
+	border-radius: 5px;
+	font-size: 24px;
+}
+
+.filter-button-group {
+	margin-bottom:  50px;
+}
+
+.filter-button-group button {
+	background: #FCFBF2;
+	padding: 22px;
+	margin-right: 18px;
+}
